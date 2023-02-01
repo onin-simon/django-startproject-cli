@@ -1,4 +1,5 @@
 DJANGO_REST_FRAMEWORK = "djangorestframework"
+CORSHEADER = "django-cors-headers"
 
 
 # Libs to install (ask user)
