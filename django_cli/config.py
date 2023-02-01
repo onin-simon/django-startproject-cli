@@ -1,26 +1,9 @@
 DJANGO_REST_FRAMEWORK = "djangorestframework"
-GRAPHENE_DJANGO = "graphene-django"
-CHANNELS = "django-channels"
-LOCALFLAVOR = "django-localflavor"
-CELERY = "celery"
-WHITENOISE = "whitenoise"
-DJANGO_FILTER = "django-filter"
-DJANGO_EXTENSIONS = "django-extensions"
-DJANGO_STORAGES = "django-storages"
-CORSHEADER = "django-cors-headers"
-CHANNELS_REDIS = "channels_redis"
+
 
 # Libs to install (ask user)
 LIBRARIES_OPTIONAL = [
     DJANGO_REST_FRAMEWORK,
-    GRAPHENE_DJANGO,
-    CHANNELS,
-    LOCALFLAVOR,
-    CELERY,
-    WHITENOISE,
-    DJANGO_FILTER,
-    DJANGO_EXTENSIONS,
-    DJANGO_STORAGES
 ]
 # INSTALLED APP LIST
 INSTALLED_APP = {
