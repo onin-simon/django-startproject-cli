@@ -137,13 +137,13 @@ class PromptConfig:
             var="name",
             default="Django Project"
         ),
-        Question(
-            input_type=InputType.STRING,
-            title="Author Details",
-            name="Author Name",
-            var="author",
-            default=""
-        ),
+#         Question(
+#             input_type=InputType.STRING,
+#             title="Author Details",
+#             name="Author Name",
+#             var="author",
+#             default=""
+#         ),
         Question(
             input_type=InputType.STRING,
             title="Project Description",
