@@ -186,14 +186,14 @@ class PromptConfig:
             default=True,
             type=bool
         ),
-        Question(
-            input_type=InputType.BOOLEAN,
-            title="Media File",
-            name="Create/Use Media File [Skip To Create]",
-            var="media",
-            default=True,
-            type=bool
-        ),
+#         Question(
+#             input_type=InputType.BOOLEAN,
+#             title="Media File",
+#             name="Create/Use Media File [Skip To Create]",
+#             var="media",
+#             default=True,
+#             type=bool
+#         ),
         Question(
             input_type=InputType.GROUP,
             title="Setup Database",
