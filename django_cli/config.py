@@ -66,6 +66,7 @@ VERSION = '1.0'
 
 POSTGRES = "postgresql"
 MYSQL = "mysql"
+SQLITE = "sqlite3"
 
 # Database LIBS / Drivers
 DATABASE_DRIVERS = {
@@ -76,6 +77,7 @@ DATABASE_DRIVERS = {
 DBEngine = {
     POSTGRES: 'django.db.backends.postgresql',
     MYSQL: 'django.db.backends.mysql',
+    SQLITE: 'django.db.backends.sqlite3',
 }
 
 PY_MEM_CACHE = "pymemcache"
