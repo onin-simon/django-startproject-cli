@@ -19,31 +19,11 @@ MIDDLEWARE = {
 EXTRA = {
     CORSHEADER: """# Django Cors Header Settings,
 CORS_ALLOWED_ORIGINS = ['http://localhost:8080','http://127.0.0.1:8000',]""",
-    CHANNELS: """
-# Add REDIS_URL To Env Variable    
-CHANNEL_LAYERS = {
-     'default': {
-         'BACKEND': 'channels_redis.core.RedisChannelLayer',
-         'CONFIG': {'hosts': [os.environ.get('REDIS_URL', 'redis://localhost:6379')]},
-     },     
-}
-ASGI_APPLICATION = "$PROJECT_NAME.routing.application"
-"""
 }
 
 # Linked Installation
 LINKED_LIBRARY = {
     DJANGO_REST_FRAMEWORK: CORSHEADER,
-}
-
-LINKED_FILES = {
-    CHANNELS: {
-        "name": "routing",
-        "dj_loc": "$APP_LOC",
-        "data": "",
-        "extension": ".py",
-        "suffix": ""
-    }
 }
 
 VERSION = '1.0'
